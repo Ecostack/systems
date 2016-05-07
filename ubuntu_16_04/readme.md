@@ -1,5 +1,7 @@
 # Ubuntu 16.04 setup
 
+## !activate canoncial partners under software!
+
 ## fix wifi issue after suspend/hibernate
 
 `sudo nano /etc/systemd/system/wifi-resume.service`
@@ -14,6 +16,20 @@ Copy the contents of wifi-resume.service
 ```
 mkdir ~/development
 mkdir ~/git
+```
+
+## install indicators
+
+***system monitor***
+
+`sudo apt install indicator-multiload`
+
+***weather***
+
+```
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install my-weather-indicato
 ```
 
 ## arc theme install
@@ -66,7 +82,8 @@ umake android
 ## Node version manager (NVM)
 Grab latest install command from https://github.com/creationix/nvm and execute
 
-### Restart terminal
+***Restart terminal***
+
 ```
 nvm install 5
 nvm install 4
