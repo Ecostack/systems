@@ -64,8 +64,7 @@ umake android
 ```
 
 ## Node version manager (NVM)
-CHECK NEWEST VERSION OF NVM
-`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash`
+Grab latest install command from https://github.com/creationix/nvm and execute
 
 ### Restart terminal
 ```
@@ -93,7 +92,7 @@ Copy the contents of mongodb.service
 `sudo systemctl enable mongodb.service`
 
 
-## elasticsearch
+## elasticsearch in v 1.7.X
 ```
 cd /tmp && wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.5.deb
 cd /tmp && sudo dpkg -i elasticsearch-1.7.5.deb
