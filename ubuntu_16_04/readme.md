@@ -84,32 +84,24 @@ echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" 
 sudo apt install -y mongodb-org
 ```
 ### Setup autostart
-### https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
+https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
 
-sudo nano /etc/systemd/system/mongodb.service
+`sudo nano /etc/systemd/system/mongodb.service`
 
-```
-[Unit]
-Description=High-performance, schema-free document-oriented database
-After=network.target
+Copy the contents of mongodb.service
 
-[Service]
-User=mongodb
-ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
-
-[Install]
-WantedBy=multi-user.target
-```
-
-sudo systemctl enable mongodb.service
+`sudo systemctl enable mongodb.service`
 
 
 ## elasticsearch
+```
 cd /tmp && wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.5.deb
 cd /tmp && sudo dpkg -i elasticsearch-1.7.5.deb
 sudo systemctl start elasticsearch.service
 sudo systemctl enable elasticsearch.service
-
+```
 ## robomongo
-https://robomongo.org/download
-### extract to ~/development/robomongo
+
+Grab latest from https://robomongo.org/download
+
+extract to ~/development
