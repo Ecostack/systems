@@ -8,3 +8,6 @@ https://chrome.google.com/webstore/detail/scriptblock/hcdjknjpbnhdoabbngpmfekaec
 
 ## Panda 4
 https://chrome.google.com/webstore/detail/panda-4-news-inspiration/haafibkemckmbknhfkiiniobjpgkebko
+
+## ARC
+https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo
