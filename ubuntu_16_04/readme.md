@@ -50,6 +50,10 @@ sudo apt update
 sudo apt install keepassx
 ```
 
+## Thunderbird
+
+`sudo apt install thunderbird`
+
 ## Git
 
 ```
@@ -121,3 +125,12 @@ sudo systemctl enable elasticsearch.service
 Grab latest from https://robomongo.org/download
 
 extract to ~/development
+
+## skype
+Version 4.X
+
+`sudo apt install skype`
+
+Version 7 requires Windows, which can be emulated through WINE :)
+
+
