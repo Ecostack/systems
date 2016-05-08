@@ -103,8 +103,10 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 sudo apt install -y mongodb-org
 ```
-### Setup autostart
-https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
+
+***Setup autostart***
+
+Source: https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
 
 `sudo nano /etc/systemd/system/mongodb.service`
 
@@ -127,10 +129,18 @@ Grab latest from https://robomongo.org/download
 extract to ~/development
 
 ## skype
-Version 4.X
+
+***Old version 4.3***
 
 `sudo apt install skype`
 
-Version 7 requires Windows, which can be emulated through WINE :)
+***New version for Windows***
+
+Source: https://community.skype.com/t5/Linux/Skype-7-through-WINE/td-p/4285383
+
+```
+sudo apt install wine
+winecfg
+```
 
 
