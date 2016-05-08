@@ -29,7 +29,15 @@ mkdir ~/git
 ```
 sudo add-apt-repository ppa:atareao/atareao
 sudo apt-get update
-sudo apt-get install my-weather-indicato
+sudo apt-get install my-weather-indicator
+```
+
+***notifications***
+
+```
+sudo add-apt-repository ppa:jconti/recent-notifications
+sudo apt-get update
+sudo apt-get install indicator-notifications
 ```
 
 ## arc theme install
@@ -130,14 +138,9 @@ extract to ~/development
 
 ## skype
 
+***Skype Web with Chrome extension***
+See Chrome extensions file
+
 ***Old version 4.3***
 
 `sudo apt install skype`
-
-***New version for Windows (through wine)***
-
-https://www.reddit.com/r/linuxmasterrace/comments/427wwa/install_windows_skype_version_on_linux/
-
-`sudo apt install playonlinux`
-
-Download skype, follow tutorial
