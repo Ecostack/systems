@@ -134,13 +134,10 @@ extract to ~/development
 
 `sudo apt install skype`
 
-***New version for Windows***
+***New version for Windows (through wine)***
 
-Source: https://community.skype.com/t5/Linux/Skype-7-through-WINE/td-p/4285383
+https://www.reddit.com/r/linuxmasterrace/comments/427wwa/install_windows_skype_version_on_linux/
 
-```
-sudo apt install wine
-winecfg
-```
+`sudo apt install playonlinux`
 
-
+Download skype, follow tutorial
