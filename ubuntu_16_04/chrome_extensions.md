@@ -11,3 +11,5 @@ https://chrome.google.com/webstore/detail/panda-4-news-inspiration/haafibkemckmb
 
 ## ARC
 https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo
+
+## Skype
