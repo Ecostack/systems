@@ -2,6 +2,9 @@
 
 ## !activate canoncial partners under software!
 
+## Turn off sticky edges 
+http://askubuntu.com/questions/109338/how-do-i-disable-mouse-magnet-on-middle-edge-with-multi-monitors
+
 ## fix wifi issue after suspend/hibernate
 
 `sudo nano /etc/systemd/system/wifi-resume.service`
